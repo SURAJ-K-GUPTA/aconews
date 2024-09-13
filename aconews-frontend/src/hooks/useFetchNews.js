@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
+import config from '../../config';
 
 const useFetchNews = (query, lang, country, page, max) => {
   const [articles, setArticles] = useState([]);  // Initialize as an empty array
@@ -13,7 +14,7 @@ const useFetchNews = (query, lang, country, page, max) => {
       setError(null);
       setArticles([]); // Clear articles when new request is made
       try {
-        const response = await axios.get(`http://localhost:5000/api/news`, {
+        const response = await axios.get(`${config.apiBaseUrl}/api/news`, {
           params: { q:query, lang, country, page, max }
         });
 
