@@ -1,0 +1,40 @@
+{
+"data":[{
+  "articles": [
+  {
+  "title": "China’s secretive space plane has returned to Earth",
+  "description": "A Chinese “reusable experimental spacecraft” believed to be the country’s secretive space plane has landed back on Earth after more than eight months in orbit – the latest development in a largely covert race between the United States and China to hone such technology.",
+  "url": "https://edition.cnn.com/2024/09/12/science/china-space-plane-intl-hnk/index.html",
+  "image": "https://media.cnn.com/api/v1/images/stellar/prod/230712230643-china-crewed-moon-landing-2030-intl-hnk-scn.jpg?c=16x9&q=w_800,c_fill",
+  "publishedAt": "2024-09-13T02:07:40Z"
+  },
+  {
+  "title": "Microsoft Copilot to be integrated into Singapore's legal technology platform",
+  "description": "The generative AI tool will help streamline legal workflows, but human oversight is still a must.",
+  "url": "https://www.zdnet.com/article/singapore-lawyers-offered-access-to-microsoft-copilot-but-reminded-to-have-human-oversight/",
+  "image": "https://www.zdnet.com/a/img/resize/2f85c6e3ede3162f21ea1bcaaf247934ff2b4792/2024/09/11/ee088f2e-6f74-40c1-83a5-81f2bf9fa06e/legal-tech-putilich092024.jpg?auto=webp&fit=crop&height=675&width=1200",
+  "publishedAt": "2024-09-12T20:39:00Z"
+  },
+  {
+  "title": "SpaceX’s successful spacewalk, explained",
+  "description": "The mission tested lots of new technology for future, longer missions.",
+  "url": "https://www.vox.com/science/371656/spacex-spacewalk-elon-musk-jared-isaacman-sarah-gillis-space",
+  "image": "https://platform.vox.com/wp-content/uploads/sites/2/2024/09/gettyimages-2170463991.jpg?quality=90&strip=all&crop=0%2C4.1487439201234%2C100%2C91.702512159753&w=1200",
+  "publishedAt": "2024-09-12T20:21:20Z"
+  },
+  {
+  "title": "Tech industry titans meet with White House officials to discuss AI energy needs",
+  "description": "Key Biden Administration personnel met with leaders of the biggest technology companies at the White House on Thursday to discuss new infrastructure needed to support artificial intelligence, sources said.",
+  "url": "https://www.upi.com/Top_News/US/2024/09/12/Tech-industry-titans-meet-White-House-officials-discuss-AI-energy-needs/4841726160588/",
+  "image": "https://cdnph.upi.com/sv/ph/og/upi_com/4841726160588/2024/1/35e16663e22a99e3478ac8e4028d8a49/v1.5/Tech-industry-titans-meet-with-White-House-officials-to-discuss-AI-energy-needs.jpg",
+  "publishedAt": "2024-09-12T18:07:26Z"
+  },
+  {
+  "title": "Chinese EV makers face another headwind as Beijing warns on protecting key tech",
+  "description": "Chinese EV stocks tumble as Beijing urges automakers to keep advanced technology in the nation.",
+  "url": "https://seekingalpha.com/news/4149105-chinese-ev-makers-face-another-headwind-as-beijing-warns-on-protecting-key-tech",
+  "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1738363714/image_1738363714.jpg?io=getty-c-w750",
+  "publishedAt": "2024-09-12T14:43:27Z"
+  }
+  ]
+  }]}
