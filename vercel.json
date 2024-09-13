@@ -1,5 +1,16 @@
 {
     "version": 2,
-    "builds": [{"src":"./aconews-backend/index.js", "use":"@vercel/node"}],
-    "routes": [{"src":"/(.*)","dest":"/"}]
-}
+    "builds": [
+      {
+        "src": "aconews-backend/index.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "aconews-backend/index.js"
+      }
+    ]
+  }
+  
