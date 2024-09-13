@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import config from '../../config';
+import config from '../config';
 
 const useFetchNews = (query, lang, country, page, max) => {
   const [articles, setArticles] = useState([]);  // Initialize as an empty array
