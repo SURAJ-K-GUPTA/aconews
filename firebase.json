@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "build",
+    "public": "aconews-frontend/build",
     "ignore": [
       "firebase.json",
       "**/.*",
