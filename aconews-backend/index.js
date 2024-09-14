@@ -8,9 +8,13 @@ const app = express();
 app.use(express.json());
 
 app.use(cors({
-  origin: ['http://localhost:3000', 'https://aconewssuraj.web.app']  // This allows requests only from the frontend
+  origin: ['http://localhost:3000', 'https://aconewssuraj.web.app','https://aconews-q5f5hm68b-suraj-kumar-guptas-projects.vercel.app/','https://aconews-eight.vercel.app/']  // This allows requests only from the frontend
   }));
   
+
+app.get('/', (req, res) => {
+    res.send('Hello World!');
+});
 
 // Mount routes
 app.use('/api/news', newsRoutes);
@@ -21,5 +25,3 @@ app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
 
-
-exports.api = functions.https.onRequest(app);
