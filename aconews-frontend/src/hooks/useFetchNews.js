@@ -14,7 +14,7 @@ const useFetchNews = (query, lang, country, page, max) => {
       setError(null);
       setArticles([]); // Clear articles when new request is made
       try {
-        const response = await axios.get(`https://aconews-backend-nine.vercel.app/api/news`, {
+        const response = await axios.get(`${config.apiBaseUrl}/api/news`, {
           params: { q:query, lang, country, page, max }
         });
 
